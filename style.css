@@ -4,7 +4,7 @@
   --color-text: #000000; /* black text */
   --color-primary: #0a2342; /* dark blue text */
   --color-primary-hover: #05416c;
-  
+
   --font-primary: 'Nunito', sans-serif;
   --font-accent: 'Fredoka One', cursive;
   --font-title: 'Chewy', cursive;
@@ -40,10 +40,40 @@ a:focus {
   outline: none;
 }
 
+a:focus-visible,
+.btn:focus-visible,
+.gallery img:focus-visible {
+  outline: 2px dashed var(--color-primary-hover);
+  outline-offset: 4px;
+}
+
 /* Header */
 header {
   text-align: center;
   margin-bottom: 2rem;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.header-icon {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+  .header-icon {
+    width: 64px;
+    height: 64px;
+  }
 }
 
 header h1 {
@@ -70,13 +100,14 @@ header p {
   padding: 0.75rem 1.5rem;
   border-radius: 0.3rem;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease;
   user-select: none;
 }
 
 .btn:hover,
 .btn:focus {
   background-color: var(--color-primary-hover);
+  transform: scale(1.03);
   outline: none;
 }
 
@@ -145,6 +176,7 @@ section ul li::before {
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
   object-fit: cover;
   transition: transform 0.3s ease;
+  aspect-ratio: 4/3;
 }
 
 .gallery img:hover,
