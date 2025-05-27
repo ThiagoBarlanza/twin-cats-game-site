@@ -37,6 +37,12 @@ a {
   transition: var(--transition);
 }
 
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  transition: var(--transition);
+}
+
 a:hover {
   color: var(--color-primary);
   text-decoration: underline;
