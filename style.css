@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #fefefe;
+}
+
+header {
+  background: linear-gradient(#ff80ab, #ffc1e3);
+  color: white;
+  padding: 40px 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #ffffff;
+  color: #ff4081;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.screenshots {
+  padding: 40px 20px;
+}
+
+.screenshots img {
+  max-width: 90%;
+  margin: 10px;
+  border: 4px solid #eee;
+  border-radius: 12px;
+}
+
+footer {
+  background: #f8f8f8;
+  color: #333;
+  padding: 20px;
+}
