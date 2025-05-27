@@ -202,7 +202,7 @@ h2 {
 }
 
 .testimonial-card:before {
-  content: """;
+  content: "";
   font-family: serif;
   font-size: 5rem;
   color: var(--color-secondary);
