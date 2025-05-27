@@ -1,15 +1,29 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Nunito', sans-serif;
   margin: 0;
   padding: 0;
   text-align: center;
   background-color: #fefefe;
+  color: #333;
 }
 
 header {
   background: linear-gradient(#ff80ab, #ffc1e3);
   color: white;
   padding: 40px 20px;
+  font-family: 'Fredoka One', cursive;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 0 0 10px 0;
+}
+
+header p {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin: 0 0 20px 0;
 }
 
 .btn {
@@ -20,11 +34,26 @@ header {
   color: #ff4081;
   border-radius: 8px;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 700;
+  font-family: 'Nunito', sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff4081;
+  color: #fff;
 }
 
 .screenshots {
   padding: 40px 20px;
+}
+
+.screenshots h2 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ff4081;
 }
 
 .screenshots img {
@@ -38,4 +67,6 @@ footer {
   background: #f8f8f8;
   color: #333;
   padding: 20px;
+  font-family: 'Chewy', cursive;
+  font-size: 1.1rem;
 }
