@@ -1,7 +1,7 @@
 /* Root variables for colors and fonts */
 :root {
   --color-bg: #FFF9F2; /* Soft warm white */
-  --color-text: #3A2E26; /* Soft dark brown */
+  --color-text: #003366; /* Dark blue */
   --color-primary: #FF9A8B; /* Peach pink */
   --color-secondary: #8BC7C0; /* Soft teal */
   --color-accent: #FFD166; /* Warm yellow */
