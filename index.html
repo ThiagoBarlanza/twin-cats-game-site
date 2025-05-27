@@ -1,287 +1,139 @@
 <!DOCTYPE html>
 <html lang="en" itemscope itemtype="https://schema.org/MobileApplication">
 <head>
-  <!-- Primary Meta Tags -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Twin Cats: Memory Card Game | Adorable Kitten Matching Game</title>
   <meta name="description" content="Match adorable kitten pairs in Twin Cats - the relaxing memory card game perfect for cat lovers. Improve memory skills with cute hand-drawn kittens. Download now!">
-  <meta name="keywords" content="memory game, cat game, kitten game, matching game, brain game, relaxing game, puzzle game">
-
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://twincatsgame.com/">
-  <meta property="og:title" content="Twin Cats: Adorable Kitten Memory Card Game">
-  <meta property="og:description" content="Match cute kitten pairs in this relaxing memory game. Perfect for cat lovers of all ages!">
-  <meta property="og:image" content="https://twincatsgame.com/images/social/twin-cats-social-share.jpg">
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Twin Cats: Memory Card Game for Cat Lovers">
-  <meta name="twitter:description" content="The cutest memory matching game with adorable kittens! Relaxing gameplay for all ages.">
-  <meta name="twitter:image" content="https://twincatsgame.com/images/social/twin-cats-twitter-card.jpg">
-
-  <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
-  <link rel="manifest" href="/assets/favicon/site.webmanifest">
-
-  <!-- Preload critical resources -->
-  <link rel="preload" href="css/style.css" as="style">
-  <link rel="preload" href="js/main.js" as="script">
-  <link rel="preload" href="images/TwinCats_Icon.png" as="image">
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css">
-  
-  <!-- Fonts -->
+  <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Comic+Neue:wght@400;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
-  
-  <!-- Schema.org markup -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "MobileApplication",
-    "name": "Twin Cats: Memory Card Game",
-    "description": "A relaxing memory matching game featuring adorable kittens",
-    "operatingSystem": "Android",
-    "applicationCategory": "GameApplication",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.8",
-      "ratingCount": "125"
-    }
-  }
-  </script>
+  <link rel="icon" href="images/favicon.png" type="image/png">
 </head>
 
 <body>
-  <!-- Header with value proposition -->
   <header class="hero">
     <div class="container">
       <div class="header-wrapper">
-        <img src="images/TwinCats_Icon.png" alt="Twin Cats game icon" class="header-icon" width="120" height="120" loading="eager">
+        <img src="images/logo.png" alt="Twin Cats logo" class="header-icon" width="120" height="120">
         <div class="header-text">
           <h1>Twin Cats</h1>
           <p class="subtitle">Memory Card Game</p>
         </div>
       </div>
       
-      <div class="hero-content">
-        <h2 class="tagline">Match adorable kitten pairs in this relaxing memory game!</h2>
-        <p class="hero-description">Improve your memory skills while enjoying cute hand-drawn kittens. Perfect for cat lovers of all ages!</p>
-        
-        <div class="cta-buttons">
-          <a href="https://play.google.com/store/apps/details?id=pt.drunkdroidos.cat_alog" class="btn" aria-label="Download Twin Cats on Google Play">
-            <img src="images/google-play-badge.png" alt="Get it on Google Play" width="180" height="70" loading="lazy">
-          </a>
-          <a href="#coming-soon" class="btn secondary" aria-label="Coming soon to App Store">
-            <img src="images/app-store-badge.png" alt="Coming soon to App Store" width="180" height="70" loading="lazy">
-          </a>
+      <p class="tagline">Match adorable kitten pairs in this relaxing memory game!</p>
+      
+      <div class="cta-buttons">
+        <a href="https://play.google.com/store/apps/details?id=pt.drunkdroidos.cat_alog" class="btn" aria-label="Download on Google Play">
+          <img src="images/google-play-badge.png" alt="Get it on Google Play" class="play-badge" loading="lazy">
+        </a>
+      </div>
+
+      <div class="trust-signals">
+        <div class="trust-badge">
+          <span class="icon">⭐</span>
+          <span>4.8/5 Rating</span>
         </div>
-        
-        <div class="trust-signals">
-          <div class="trust-badge">
-            <span class="icon">⭐</span>
-            <span>4.8/5 Rating</span>
-          </div>
-          <div class="trust-badge">
-            <span class="icon">😻</span>
-            <span>10,000+ Downloads</span>
-          </div>
-          <div class="trust-badge">
-            <span class="icon">👪</span>
-            <span>Family Friendly</span>
-          </div>
+        <div class="trust-badge">
+          <span class="icon">😻</span>
+          <span>10,000+ Downloads</span>
+        </div>
+        <div class="trust-badge">
+          <span class="icon">👪</span>
+          <span>Family Friendly</span>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- Video demo section -->
-  <section class="video-demo">
-    <div class="container">
-      <h2>See Twin Cats in Action</h2>
-      <div class="video-wrapper">
-        <video controls poster="images/video-poster.jpg" preload="metadata" aria-label="Twin Cats gameplay demonstration">
-          <source src="videos/gameplay-trailer.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
+  <main>
+    <section class="features">
+      <div class="container">
+        <h2>Why You'll Love Twin Cats</h2>
+        <div class="kitten-divider">🐾</div>
+        
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">🎮</div>
+            <h3>Relaxing Gameplay</h3>
+            <p>Simple memory matching with increasing difficulty levels</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">🎨</div>
+            <h3>Charming Art</h3>
+            <p>Hand-drawn kitten illustrations and calming soundtrack</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">⏱️</div>
+            <h3>Game Modes</h3>
+            <p>Relaxed play or timed challenges for faster reflexes</p>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Benefits section with social proof -->
-  <section class="benefits">
-    <div class="container">
-      <h2>Why You'll Love Twin Cats</h2>
-      
-      <div class="benefits-grid">
-        <div class="benefit-card">
-          <div class="benefit-icon">🧠</div>
-          <h3>Boost Memory Skills</h3>
-          <p>Scientific studies show memory games improve cognitive function in players of all ages.</p>
-        </div>
-        
-        <div class="benefit-card">
-          <div class="benefit-icon">😌</div>
-          <h3>Reduce Stress</h3>
-          <p>Our players report 73% lower stress levels after just 15 minutes of gameplay.</p>
-        </div>
-        
-        <div class="benefit-card">
-          <div class="benefit-icon">👨‍👩‍👧‍👦</div>
-          <h3>Family Bonding</h3>
-          <p>"My kids and I play together every night before bed!" - Sarah, mom of two</p>
+    <section class="screenshots">
+      <div class="container">
+        <h2>Game Preview</h2>
+        <div class="kitten-divider">🐾</div>
+        <div class="gallery">
+          <img src="images/screenshots/1.jpg" alt="Level selection screen" loading="lazy">
+          <img src="images/screenshots/2.jpg" alt="Gameplay with timer" loading="lazy">
+          <img src="images/screenshots/3.jpg" alt="Kitten card matching" loading="lazy">
+          <img src="images/screenshots/4.jpg" alt="Victory celebration" loading="lazy">
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Features section -->
-  <section class="features">
-    <div class="container">
-      <h2>Game Features</h2>
-      
-      <div class="feature-tabs">
-        <div class="feature-tab active" data-tab="gameplay">
-          <img src="images/icons/gameplay-icon.png" alt="Gameplay icon" width="40" height="40" loading="lazy">
-          <span>Gameplay</span>
-        </div>
+    <section class="testimonials">
+      <div class="container">
+        <h2>Player Reviews</h2>
+        <div class="kitten-divider">🐾</div>
         
-        <div class="feature-tab" data-tab="modes">
-          <img src="images/icons/modes-icon.png" alt="Game modes icon" width="40" height="40" loading="lazy">
-          <span>Game Modes</span>
-        </div>
-        
-        <div class="feature-tab" data-tab="kittens">
-          <img src="images/icons/kitten-icon.png" alt="Kittens icon" width="40" height="40" loading="lazy">
-          <span>Adorable Kittens</span>
-        </div>
-      </div>
-      
-      <div class="feature-content active" id="gameplay-content">
-        <!-- Content would be loaded via JS -->
-      </div>
-    </div>
-  </section>
-
-  <!-- Testimonials section -->
-  <section class="testimonials">
-    <div class="container">
-      <h2>What Players Are Saying</h2>
-      
-      <div class="testimonial-slider">
-        <div class="testimonial">
-          <div class="rating">⭐⭐⭐⭐⭐</div>
+        <div class="testimonial-card">
           <blockquote>
             "This is the cutest memory game I've ever played! The kittens are adorable and it's so relaxing after a long day."
           </blockquote>
-          <div class="author">- Jessica M.</div>
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+          <p class="author">- Jessica M.</p>
         </div>
         
-        <!-- More testimonials would be loaded via JS -->
-      </div>
-      
-      <div class="app-store-reviews">
-        <a href="https://play.google.com/store/apps/details?id=pt.drunkdroidos.cat_alog#review" class="btn">
-          Leave Your Review
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ Section -->
-  <section class="faq">
-    <div class="container">
-      <h2>Frequently Asked Questions</h2>
-      
-      <div class="accordion">
-        <div class="accordion-item">
-          <button class="accordion-header" aria-expanded="false">
-            Is Twin Cats suitable for children?
-          </button>
-          <div class="accordion-content">
-            <p>Absolutely! Twin Cats is designed to be family-friendly with no inappropriate content. The game is perfect for children ages 4+ and helps develop memory skills.</p>
-          </div>
+        <div class="testimonial-card">
+          <blockquote>
+            "My kids ask to play every day. It's become our favorite family activity!"
+          </blockquote>
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+          <p class="author">- Sarah T.</p>
         </div>
-        
-        <!-- More FAQ items -->
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Final CTA Section -->
-  <section class="final-cta">
-    <div class="container">
-      <h2>Ready to Start Matching?</h2>
-      <p>Join thousands of happy players enjoying Twin Cats today!</p>
-      
-      <div class="cta-buttons">
+    <section class="cta">
+      <div class="container">
+        <h2>Start Playing Now!</h2>
+        <div class="kitten-divider">🐾</div>
+        <p>Join thousands of happy players enjoying Twin Cats today</p>
         <a href="https://play.google.com/store/apps/details?id=pt.drunkdroidos.cat_alog" class="btn large">
-          Download Now - It's Free!
+          Download Free on Google Play
         </a>
       </div>
-      
-      <div class="guarantee">
-        <img src="images/paw-print.png" alt="Paw print icon" width="30" height="30" loading="lazy">
-        <span>100% Satisfaction Guaranteed</span>
-      </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
-  <!-- Footer -->
   <footer>
     <div class="container">
-      <div class="footer-grid">
-        <div class="footer-about">
-          <img src="images/TwinCats_Icon.png" alt="Twin Cats logo" width="60" height="60" loading="lazy">
-          <p>Twin Cats is a relaxing memory matching game featuring adorable kittens. Perfect for cat lovers of all ages!</p>
-        </div>
-        
+      <div class="footer-content">
+        <img src="images/logo.png" alt="Twin Cats logo" width="60" height="60" loading="lazy">
         <div class="footer-links">
-          <h3>Quick Links</h3>
-          <ul>
-            <li><a href="privacy-policy.html">Privacy Policy</a></li>
-            <li><a href="terms-of-service.html">Terms of Service</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-            <li><a href="blog/">Blog</a></li>
-          </ul>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+          <a href="contact.html">Contact</a>
         </div>
-        
-        <div class="footer-social">
-          <h3>Follow Us</h3>
-          <div class="social-icons">
-            <a href="#" aria-label="Facebook"><img src="images/social/facebook.png" alt="Facebook" width="32" height="32" loading="lazy"></a>
-            <a href="#" aria-label="Instagram"><img src="images/social/instagram.png" alt="Instagram" width="32" height="32" loading="lazy"></a>
-            <a href="#" aria-label="Twitter"><img src="images/social/twitter.png" alt="Twitter" width="32" height="32" loading="lazy"></a>
-          </div>
-        </div>
-      </div>
-      
-      <div class="footer-bottom">
-        <p>&copy; 2025 Twin Cats Memory Game. All rights reserved.</p>
-        <p>Made with ❤️ by an indie developer who loves cats!</p>
+        <p class="copyright">© 2024 Twin Cats. All rights reserved.</p>
       </div>
     </div>
   </footer>
-
-  <!-- JavaScript -->
-  <script src="js/main.js" defer></script>
-  
-  <!-- Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-XXXXXXXXXX');
-  </script>
 </body>
 </html>
