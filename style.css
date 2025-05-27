@@ -44,16 +44,49 @@ header p {
   color: #fff;
 }
 
-.screenshots {
+.about {
   padding: 40px 20px;
 }
 
+.about h2,
+.support h2,
 .screenshots h2 {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 700;
+  font-family: 'Fredoka One', cursive;
   font-size: 2rem;
-  margin-bottom: 20px;
   color: #ff4081;
+  margin-bottom: 20px;
+}
+
+.about p,
+.about ul {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto 20px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.about ul {
+  padding-left: 20px;
+  list-style: none;
+}
+
+.about ul li {
+  margin: 10px 0;
+  position: relative;
+  padding-left: 1.2em;
+}
+
+.about ul li::before {
+  content: '🐾';
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.screenshots {
+  padding: 40px 20px;
 }
 
 .screenshots img {
@@ -63,10 +96,24 @@ header p {
   border-radius: 12px;
 }
 
+.support {
+  padding: 40px 20px;
+  font-family: 'Nunito', sans-serif;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.support p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
 footer {
   background: #f8f8f8;
   color: #333;
   padding: 20px;
   font-family: 'Chewy', cursive;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
